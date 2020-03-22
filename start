@@ -1,0 +1,6 @@
+#!/bin/bash
+
+_dir=$(cd $(dirname $0);pwd)
+
+nohup python $_dir/mtool.py --server start > $_dir/log &
+

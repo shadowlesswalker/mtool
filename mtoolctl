@@ -1,0 +1,5 @@
+#!/bin/bash
+
+_dir=/usr/mtool
+
+python $_dir/mtool.py $*
